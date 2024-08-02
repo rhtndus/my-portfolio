@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+li{
+    list-style-type: none;
+
+}
+
+.container{
+    width: 100%;
+    height: 950px;
+
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(/bg1.jpg) no-repeat ; 
+    background-size: cover;
+
+    color: white;
+
+
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 20px;
+
+    transition: 0.2s;
+}
+.logo:hover{
+    color: rgb(153, 63, 57);
+
+}
+.menu{
+    width: 450px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-right: 100px;
+}
+
+.menu li{
+    font-size: 23px;
+   
+}
+.menu li a{
+        transition: 0.2s;
+        color: white;
+}
+.menu li a:hover{
+    color: rgb(219, 38, 38);
+}
+
+.intro{
+    width: 900px;
+    height: 500px;
+
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.intro h3{
+    text-align: center;
+    font-size: 70px;
+
+}
+.intro h5{
+    text-align: center;
+
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.intro h4{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.intro button{
+    width: 150px;
+    height: 55px;
+
+    border-radius: 15px;
+    display: block;
+    margin: 10px auto;
+    margin-top: 150px;
+
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+
+    transition: 0.3s;
+}
+
+.intro button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+
+.about{
+    width: 1200px;
+    height: 800px;
+
+    margin: 0 auto;
+    margin-top: 150px;
+
+
+
+}
+
+.about h5{
+    color: #5DADEC;
+    font-size: 30px;
+
+
+}
+
+.about h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.about-contents{
+    height: 600px;
+    display: flex;
+}
+
+.about-contents .left{
+    width: 600px;
+    height: 600px;
+}
+
+.about-contents .right{
+    width: 600px;
+    height: 600px;
+
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.about-contents .right h3{
+    font-weight: bold;
+    font-size: 35px;
+    color: #5DADEC;
+    
+}
+.about-contents .right li{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.about img{
+    width: 600px;
+    height: 400px;
+
+    transition: 0.3s;
+
+}
+
+.about img:hover{
+    opacity: 0.8;
+
+}
+
+.skills{
+    height: 800px;
+    background-color: #f8f8f8;
+
+    margin-top: 200px;
+    padding-top: 100px;
+
+}
+
+.skills-inner{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.skills h5{
+    color: #5DADEC;
+    font-size: 30px;
+
+}
+
+.skills h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+
+}
+
+.skills-contents{
+    width: 1200px;
+    height: 500px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.skills-contents .box{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+
+    transition: 0.3s;
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+
+}
+
+.skills-contents .box:hover{
+    background-color: #406893
+    ;
+    color : white
+
+}
+
+.skills h4{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.skills p{
+    font-size: 18px;
+
+}
+
+.bg2{
+    height: 700px;
+    background: url(/배경사진.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.contact{
+    width: 1200px;
+    height: 800px;
+
+    margin: 0 auto;
+    margin-top: 150px;
+
+}
+
+.cantact h5{
+    color: #5DADEC;
+    font-size: 30px;
+
+
+}
+
+.contact h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+
+}
+
+.contact .contents{
+    width: 1200px;
+    height: 600px;
+
+    display: flex;
+
+}
+
+.contact .contents .left{
+    width: 400px;
+    height: 600px;
+
+}
+
+.contact .contents .right{
+    width: 800px;
+    height: 600px;
+
+}
+
+.info{
+    width: 300px;
+    height: 90px;
+
+    border: 1px solid #ddd;
+    margin: 0 auto;
+
+    padding-left: 20px;
+    padding-top: 15px;
+
+    margin-bottom: 20px;
+}
+
+
+.info h2{
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.info h6{
+    font-size: 18px;
+    font-weight: normal;
+
+}
+
+.contact .right{
+    width: 500px;
+    height: 600px;
+
+    border: 1px solid #ddd;
+}
+
+.btn-name,.btn-email{
+
+    width: 90%;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid#ccc;
+    border-radius: 7px;
+
+}
+
+.btn-message{
+
+    width: 90%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+
+
+}
+
+.contact .name,.contact .email, .contact .message{
+
+    margin-top: 30px;
+    padding-left: 40px;
+}
+
+.send{
+    width: 90%;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 7px;
+
+    background-color: #5DADEC;
+    color: white;
+
+    margin-top: 30px;
+
+}
